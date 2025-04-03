@@ -1,0 +1,16 @@
+{
+  "name": "clerici-t1-pw8-dashboard",
+  "author": "Giulia Clerici",
+  "license": "ISC",
+  "scripts": {    
+    "lint": "pnpm biome lint --write .",
+    "format": "pnpm biome format --write ."
+  },
+  "dependencies": {
+    "typescript": "^5.8.2"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "rimraf": "^6.0.1"
+  }
+}

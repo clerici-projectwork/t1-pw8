@@ -1,0 +1,20 @@
+export const GOLD_TONS_DAILY_PRODUCTION = 0.2888;
+export const SILVER_TONS_DAILY_PRODUCTION = 2.5382;
+export const COPPER_TONS_DAILY_PRODUCTION = 7.4876;
+
+export const COST_GOLD_EXTRACTION_PER_TON = 42920000;
+export const COST_SILVER_EXTRACTION_PER_TON = 674160;
+export const COST_COPPER_EXTRACTION_PER_TON = 103200;
+
+export const CO2_TONS_PRODUCTION_PER_GOLD_TON = 12000;
+export const CO2_TONS_PRODUCTION_PER_SILVER_TON = 200;
+export const CO2_TONS_PRODUCTION_PER_COPPER_TON = 5.67;
+
+// Ratio of the most common ounce
+export const AVOIRDUPOIS_OUNCE_TO_GRAM = 28.35;
+// Ratio of the ounce used for gold and silver
+export const TROY_OUNCE_TO_GRAM = 31.1034768;
+
+export const GOLD_GR_PRODUCTION_COST = 23.14;
+export const SILVER_GR_PRODUCTION_COST = 0.093;
+export const COPPER_GR_PRODUCTION_COST = 0.032;

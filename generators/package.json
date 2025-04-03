@@ -1,0 +1,20 @@
+{
+  "name": "@clerici/generators",
+  "version": "1.0.0",
+  "description": "Project including scripts to generate random data",
+  "scripts": {
+    "generate:metals-production": "tsx src/metals-production.ts",
+    "generate:co2-production": "tsx src/co2-production.ts",
+    "generate:metals-production-cost": "tsx src/metals-production-cost.ts",
+    "generate:all": "pnpm run generate:metals-production && pnpm run generate:co2-production && pnpm run generate:metals-production-cost"
+  },
+  "author": "Giulia Clerici",
+  "dependencies": {
+    "@clerici/common": "workspace:^",
+    "date-fns": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3"
+  }
+}
