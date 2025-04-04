@@ -104,7 +104,7 @@ export function HistoricalDataRoute() {
             hasError={hasError}
             isLoading={isLoading}
             headerIcon={Biohazard}
-            header='Guadagni per metallo (€/g)'
+            header='Co2 emessa per metallo (T)'
           >
             {co2ProducedByMonth && (
               <BarChart
