@@ -142,7 +142,7 @@ export function HistoricalDataRoute() {
             hasError={hasError}
             isLoading={isLoading}
             headerIcon={Invoice}
-            header='Costi estrazioni'
+            header='Costi estrazioni (€/T)'
           >
             {metalProductionCostByMonth && (
               <BarChart
